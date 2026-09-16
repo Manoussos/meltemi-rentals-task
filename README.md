@@ -1,49 +1,59 @@
-# Meltemi Rentals — Localle Task
+# Meltemi Rentals
 
-Initial hand-built landing page scaffold.
+Landing page created for the Localle Web Developer & Automation Specialist test task.
 
-## Current build
-- Accessible header
-- Desktop navigation
-- Mobile navigation
-- Hero section
-- Trust strip
-- Responsive styles
-- Reduced-motion support
+The goal of the page is to help a visitor understand why a €35/day rental can offer better value than a lower advertised daily rate once insurance, airport pickup, second driver and other extras are included.
+
+## Main features
+
+- Mobile-first responsive layout
+- Clear hero section with booking CTA
+- Transparent pricing comparison
+- 4 vehicle options with daily prices
+- 3 reasons to choose Meltemi Rentals
+- Guest review section
+- Booking request form connected to Formspree
+- Greek, English and German language support
+- Mobile sticky availability button
+- Optimized WebP images
+
+## Performance
+
+Lighthouse results during local testing:
+
+### Mobile
+- Performance: 99
+- Accessibility: 96
+- Best Practices: 100
+- SEO: 100
+
+### Desktop
+- Performance: 100
+- Accessibility: 96
+- Best Practices: 100
+- SEO: 100
+
+## Tech
+
+- HTML
+- CSS
+- Vanilla JavaScript
+- Formspree
+
+No framework or page builder was used.
 
 ## Project structure
 
-meltemi-rentals/
-├── index.html
+```text
+meltemi-rentals-task/
 ├── assets/
-│   ├── css/
-│   │   └── style.css
-│   ├── js/
-│   │   └── main.js
 │   └── images/
-│       └── hero.webp
+│       ├── hero-modern-optimized.webp
+│       ├── fiat-panda.webp
+│       ├── toyota-yaris.webp
+│       ├── peugeot-208.webp
+│       └── fiat-tipo.webp
+├── index.html
+├── style.css
+├── script.js
 └── README.md
-
-## Hero image
-
-Add your optimized image at:
-
-assets/images/hero.webp
-
-Recommended:
-- WebP
-- around 1600px wide
-- compressed for fast mobile loading
-- Kos / waterfront / road / car
-- sunset or blue-hour lighting
-
-If the image is missing, the hero still falls back to the navy background.
-
-## Next sections
-
-1. Transparent pricing
-2. Cars
-3. Why Meltemi
-4. Reviews
-5. Booking request form
-6. Footer / contact
