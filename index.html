@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="el">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="Ενοικίαση αυτοκινήτου στην Κω με ξεκάθαρες τιμές, πλήρη ασφάλιση, παραλαβή από το αεροδρόμιο και χωρίς δέσμευση ποσού." data-i18n-content="meta.description" name="description"/>
+  <title data-i18n-title="meta.title">
+   Meltemi Rentals | Ενοικίαση αυτοκινήτου στην Κω
+  </title>
+  <link href="style.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <header class="site-header">
+   <div class="container header-inner">
+    <a aria-label="Αρχική σελίδα Meltemi Rentals" class="brand" data-i18n-aria-label="aria.home" href="#top">
+     <span class="brand-name">
+      meltemi
+     </span>
+     <span class="brand-subtitle">
+      RENTALS · KOS
+     </span>
+    </a>
+    <nav aria-label="Κύρια πλοήγηση" class="desktop-nav" data-i18n-aria-label="aria.mainNav">
+     <a data-i18n="nav.cars" href="#cars">
+      Αυτοκίνητα
+     </a>
+     <a data-i18n="nav.why" href="#why-meltemi">
+      Γιατί Meltemi
+     </a>
+     <a data-i18n="nav.reviews" href="#reviews">
+      Αξιολογήσεις
+     </a>
+     <a data-i18n="nav.contact" href="#contact">
+      Επικοινωνία
+     </a>
+    </nav>
+    <div class="language-picker">
+     <label class="sr-only" data-i18n="language.label" for="language-select">
+      Γλώσσα
+     </label>
+     <select aria-label="Γλώσσα" class="language-select" data-i18n-aria-label="language.label" id="language-select">
+      <option selected="" value="el">
+       Ελληνικά
+      </option>
+      <option value="en">
+       English
+      </option>
+      <option value="de">
+       Deutsch
+      </option>
+     </select>
+    </div>
+    <a class="header-cta" data-i18n="nav.availability" href="#booking">
+     Έλεγχος διαθεσιμότητας
+    </a>
+   </div>
+  </header>
+  <main id="top">
+   <!-- HERO -->
+   <section class="hero">
+    <div aria-hidden="true" class="hero-background">
+    </div>
+    <div class="container hero-inner">
+     <div class="hero-content">
+      <p class="eyebrow" data-i18n="hero.eyebrow">
+       Ενοικίαση αυτοκινήτου χωρίς άγχος.
+      </p>
+      <h1 data-i18n-html="hero.title">
+       <span>
+        Σταθερές τιμές.
+       </span>
+       Χωρίς εκπλήξεις.
+      </h1>
+      <p class="hero-description" data-i18n="hero.description">
+       Οι διακοπές είναι για να χαλαρώνετε. Πλήρης ασφάλιση, παραλαβή και παράδοση στο αεροδρόμιο, δεύτερος οδηγός και 24/7 βοήθεια, όλα σε μία τιμή.
+      </p>
+      <div class="hero-actions">
+       <a class="button button-primary" data-i18n="nav.availability" href="#booking">
+        Έλεγχος διαθεσιμότητας
+       </a>
+       <a class="button-link" data-i18n-html="hero.viewCars" href="#cars">
+        Δείτε τα αυτοκίνητά μας
+        <span aria-hidden="true">
+         →
+        </span>
+       </a>
+      </div>
+     </div>
+    </div>
+   </section>
+   <!-- TRUST BAR -->
+   <section aria-label="Παροχές ενοικίασης" class="trust-section" data-i18n-aria-label="aria.benefits">
+    <div class="container trust-grid">
+     <article class="trust-item">
+      <div aria-hidden="true" class="trust-icon">
+       <svg viewbox="0 0 24 24">
+        <path d="M12 3l7 3v5c0 5-3 8-7 10-4-2-7-5-7-10V6l7-3z">
+        </path>
+        <path d="M9 12l2 2 4-5">
+        </path>
+       </svg>
+      </div>
+      <div>
+       <strong data-i18n="trust.insurance.title">
+        Πλήρης ασφάλιση
+       </strong>
+       <span data-i18n="trust.insurance.text">
+        Περιλαμβάνεται στην τιμή
+       </span>
+      </div>
+     </article>
+     <article class="trust-item">
+      <div aria-hidden="true" class="trust-icon">
+       <svg viewbox="0 0 24 24">
+        <path d="M3 11l18-7-7 18-3-8-8-3z">
+        </path>
+       </svg>
+      </div>
+      <div>
+       <strong data-i18n="trust.airport.title">
+        Παραλαβή από αεροδρόμιο
+       </strong>
+       <span data-i18n="trust.airport.text">
+        Χωρίς επιπλέον χρέωση
+       </span>
+      </div>
+     </article>
+     <article class="trust-item">
+      <div aria-hidden="true" class="trust-icon">
+       <svg viewbox="0 0 24 24">
+        <rect height="14" rx="2" width="18" x="3" y="5">
+        </rect>
+        <path d="M3 9h18">
+        </path>
+        <path d="M8 15h3">
+        </path>
+       </svg>
+      </div>
+      <div>
+       <strong data-i18n="trust.deposit.title">
+        Χωρίς δέσμευση ποσού
+       </strong>
+       <span data-i18n="trust.deposit.text">
+        Δεν δεσμεύεται ποσό στην κάρτα σας
+       </span>
+      </div>
+     </article>
+     <article class="trust-item">
+      <div aria-hidden="true" class="trust-icon">
+       <svg viewbox="0 0 24 24">
+        <path d="M4 14v-3a8 8 0 0116 0v3">
+        </path>
+        <path d="M4 14a2 2 0 002 2h1v-5H6a2 2 0 00-2 2v1z">
+        </path>
+        <path d="M20 14a2 2 0 01-2 2h-1v-5h1a2 2 0 012 2v1z">
+        </path>
+        <path d="M17 18c-1 2-3 2-5 2">
+        </path>
+       </svg>
+      </div>
+      <div>
+       <strong data-i18n="trust.support.title">
+        Τοπική υποστήριξη 24/7
+       </strong>
+       <span data-i18n="trust.support.text">
+        Καλέστε μας όποτε χρειαστείτε βοήθεια
+       </span>
+      </div>
+     </article>
+    </div>
+   </section>
+   <section class="pricing-section" id="pricing">
+    <div class="container pricing-layout">
+     <div class="pricing-copy">
+      <p class="section-eyebrow" data-i18n="pricing.eyebrow">
+       ΞΕΚΑΘΑΡΑ ΑΠΟ ΤΗΝ ΑΡΧΗ
+      </p>
+      <h2 data-i18n-html="pricing.title">
+       Χωρίς εκπλήξεις
+       <span>
+        στην παραλαβή.
+       </span>
+      </h2>
+      <p class="pricing-intro" data-i18n="pricing.intro">
+       Κρατάμε τα πράγματα απλά, ώστε εσείς να απολαύσετε το όμορφο νησί μας.
+      </p>
+      <p class="pricing-secondary" data-i18n="pricing.secondary">
+       Πριν συγκρίνετε ημερήσιες τιμές, συγκρίνετε τι πραγματικά περιλαμβάνεται.
+      </p>
+     </div>
+     <div class="pricing-card">
+      <div class="pricing-card-header">
+       <div>
+        <span class="pricing-label">
+         MELTEMI RENTALS
+        </span>
+        <strong data-i18n="pricing.fromPrice">
+         Από €35/ημέρα
+        </strong>
+       </div>
+       <span class="pricing-final" data-i18n="pricing.final">
+        Τελική τιμή
+       </span>
+      </div>
+      <div class="comparison-list">
+       <div class="comparison-row comparison-head" aria-hidden="true">
+        <span></span>
+        <span data-i18n="pricing.table.meltemi">Meltemi Rentals</span>
+        <span data-i18n="pricing.table.other">Αλλού</span>
+       </div>
+       <div class="comparison-row">
+        <span class="comparison-name" data-i18n="pricing.insurance.name">
+         Πλήρης ασφάλιση
+        </span>
+        <span class="included" data-i18n="pricing.insurance.included">
+         Στην τιμή
+        </span>
+        <span class="possible-extra" data-i18n="pricing.insurance.extra">
+         Συχνά έξτρα
+        </span>
+       </div>
+       <div class="comparison-row">
+        <span class="comparison-name" data-i18n="pricing.airport.name">
+         Παραλαβή από αεροδρόμιο
+        </span>
+        <span class="included" data-i18n="pricing.airport.included">
+         Στην τιμή
+        </span>
+        <span class="possible-extra" data-i18n="pricing.airport.extra">
+         Μπορεί να χρεωθεί
+        </span>
+       </div>
+       <div class="comparison-row">
+        <span class="comparison-name" data-i18n="pricing.driver.name">
+         Δεύτερος οδηγός
+        </span>
+        <span class="included" data-i18n="pricing.driver.included">
+         Στην τιμή
+        </span>
+        <span class="possible-extra" data-i18n="pricing.driver.extra">
+         Συχνά έξτρα
+        </span>
+       </div>
+       <div class="comparison-row">
+        <span class="comparison-name" data-i18n="pricing.deposit.name">
+         Δέσμευση κάρτας
+        </span>
+        <span class="included" data-i18n="pricing.deposit.included">
+         €0
+        </span>
+        <span class="possible-extra" data-i18n="pricing.deposit.extra">
+         Μπορεί να ζητηθεί
+        </span>
+       </div>
+       <div class="comparison-row">
+        <span class="comparison-name" data-i18n="pricing.fuel.name">
+         Πολιτική καυσίμων
+        </span>
+        <span class="included" data-i18n="pricing.fuel.included">
+         Full-to-full
+        </span>
+        <span class="possible-extra" data-i18n="pricing.fuel.extra">
+         Ανάλογα με τους όρους
+        </span>
+       </div>
+      </div>
+      <p class="pricing-footnote" data-i18n="pricing.footnote">
+       Η τιμή που συμφωνούμε είναι η τιμή που πληρώνετε.
+      </p>
+     </div>
+    </div>
+   </section>
+   <!-- FLEET -->
+   <section class="fleet-section" id="cars">
+    <div class="container">
+     <div class="section-heading fleet-heading">
+      <div>
+       <p class="section-eyebrow" data-i18n="fleet.eyebrow">
+        Ο ΣΤΟΛΟΣ ΜΑΣ
+       </p>
+       <h2 data-i18n-html="fleet.title">
+        Διαλέξτε αυτό που ταιριάζει
+        <span>
+         στο ταξίδι σας.
+        </span>
+       </h2>
+      </div>
+      <p class="fleet-intro" data-i18n="fleet.intro">
+       Από εύκολη μετακίνηση στην πόλη μέχρι περισσότερο χώρο για την οικογένεια. Τέσσερις απλές επιλογές με ξεκάθαρη ημερήσια τιμή.
+      </p>
+     </div>
+     <div class="fleet-grid">
+      <!-- FIAT PANDA -->
+      <article class="car-card">
+       <div class="car-image">
+        <img alt="Fiat Panda προς ενοικίαση στην Κω" data-i18n-alt="alt.panda" height="480" loading="lazy" src="assets/images/fiat-panda.webp" width="720"/>
+        <span class="car-category" data-i18n="fleet.category.economy">
+         Οικονομικό
+        </span>
+       </div>
+       <div class="car-content">
+        <div class="car-title-row">
+         <h3>
+          Fiat Panda
+         </h3>
+         <div class="car-price">
+          <strong>
+           €35
+          </strong>
+          <span data-i18n="fleet.perDay">
+           / ημέρα
+          </span>
+         </div>
+        </div>
+        <div class="car-meta">
+         <span data-i18n="fleet.manual">
+          Χειροκίνητο
+         </span>
+         <span data-i18n="fleet.petrol">
+          Βενζίνη
+         </span>
+        </div>
+        <a class="car-link" data-car="Economy" data-i18n-html="fleet.request" href="#booking">
+         Αίτημα για αυτό το αυτοκίνητο
+         <span aria-hidden="true">
+          →
+         </span>
+        </a>
+       </div>
+      </article>
+      <!-- TOYOTA YARIS -->
+      <article class="car-card">
+       <div class="car-image">
+        <img alt="Toyota Yaris Hybrid προς ενοικίαση στην Κω" data-i18n-alt="alt.yaris" height="480" loading="lazy" src="assets/images/toyota-yaris.webp" width="720"/>
+        <span class="car-category" data-i18n="fleet.category.compact">
+         Μικρομεσαίο
+        </span>
+       </div>
+       <div class="car-content">
+        <div class="car-title-row">
+         <h3>
+          Toyota Yaris Hybrid
+         </h3>
+         <div class="car-price">
+          <strong>
+           €39
+          </strong>
+          <span data-i18n="fleet.perDay">
+           / ημέρα
+          </span>
+         </div>
+        </div>
+        <div class="car-meta">
+         <span data-i18n="fleet.automatic">
+          Αυτόματο
+         </span>
+         <span data-i18n="fleet.hybrid">
+          Υβριδικό
+         </span>
+        </div>
+        <a class="car-link" data-car="Compact" data-i18n-html="fleet.request" href="#booking">
+         Αίτημα για αυτό το αυτοκίνητο
+         <span aria-hidden="true">
+          →
+         </span>
+        </a>
+       </div>
+      </article>
+      <!-- PEUGEOT 208 -->
+      <article class="car-card">
+       <div class="car-image">
+        <img alt="Peugeot 208 προς ενοικίαση στην Κω" data-i18n-alt="alt.peugeot" height="480" loading="lazy" src="assets/images/peugeot-208.webp" width="720"/>
+        <span class="car-category" data-i18n="fleet.category.compact">
+         Μικρομεσαίο
+        </span>
+       </div>
+       <div class="car-content">
+        <div class="car-title-row">
+         <h3>
+          Peugeot 208
+         </h3>
+         <div class="car-price">
+          <strong>
+           €42
+          </strong>
+          <span data-i18n="fleet.perDay">
+           / ημέρα
+          </span>
+         </div>
+        </div>
+        <div class="car-meta">
+         <span data-i18n="fleet.manual">
+          Χειροκίνητο
+         </span>
+         <span data-i18n="fleet.petrol">
+          Βενζίνη
+         </span>
+        </div>
+        <a class="car-link" data-car="Compact" data-i18n-html="fleet.request" href="#booking">
+         Αίτημα για αυτό το αυτοκίνητο
+         <span aria-hidden="true">
+          →
+         </span>
+        </a>
+       </div>
+      </article>
+      <!-- FIAT TIPO -->
+      <article class="car-card">
+       <div class="car-image">
+        <img alt="Fiat Tipo οικογενειακό προς ενοικίαση στην Κω" data-i18n-alt="alt.tipo" height="480" loading="lazy" src="assets/images/fiat-tipo.webp" width="720"/>
+        <span class="car-category" data-i18n="fleet.category.family">
+         Οικογενειακό
+        </span>
+       </div>
+       <div class="car-content">
+        <div class="car-title-row">
+         <h3>
+          Fiat Tipo
+         </h3>
+         <div class="car-price">
+          <strong>
+           €48
+          </strong>
+          <span data-i18n="fleet.perDay">
+           / ημέρα
+          </span>
+         </div>
+        </div>
+        <div class="car-meta">
+         <span data-i18n="fleet.manual">
+          Χειροκίνητο
+         </span>
+         <span data-i18n="fleet.diesel">
+          Πετρέλαιο
+         </span>
+        </div>
+        <a class="car-link" data-car="Family" data-i18n-html="fleet.request" href="#booking">
+         Αίτημα για αυτό το αυτοκίνητο
+         <span aria-hidden="true">
+          →
+         </span>
+        </a>
+       </div>
+      </article>
+     </div>
+    </div>
+   </section>
+   <section class="why-section" id="why-meltemi">
+    <div class="container">
+     <div class="why-heading">
+      <div>
+       <p class="section-eyebrow" data-i18n="why.eyebrow">
+        ΓΙΑΤΙ MELTEMI
+       </p>
+       <h2 data-i18n-html="why.title">
+        Η ενοικίαση αυτοκινήτου πρέπει να είναι
+        <span>
+         το εύκολο κομμάτι των διακοπών σας.
+        </span>
+       </h2>
+      </div>
+      <p class="why-intro" data-i18n="why.intro">
+       Ξεκάθαρες πληροφορίες πριν φτάσετε, εύκολη παραλαβή και πραγματική βοήθεια όσο βρίσκεστε στον δρόμο.
+      </p>
+     </div>
+     <div class="why-grid">
+      <article class="why-item">
+       <span class="why-number">
+        01
+       </span>
+       <h3 data-i18n="why.one.title">
+        Χωρίς εκπλήξεις της τελευταίας στιγμής
+       </h3>
+       <p data-i18n="why.one.text">
+        Γνωρίζετε από πριν τι περιλαμβάνεται και τι θα πληρώσετε.
+       </p>
+      </article>
+      <article class="why-item">
+       <span class="why-number">
+        02
+       </span>
+       <h3 data-i18n="why.two.title">
+        Εύκολη παραλαβή στο αεροδρόμιο
+       </h3>
+       <p data-i18n="why.two.text">
+        Σας συναντάμε στο αεροδρόμιο της Κω και σας βοηθάμε να ξεκινήσετε χωρίς περιττή αναμονή.
+       </p>
+      </article>
+      <article class="why-item">
+       <span class="why-number">
+        03
+       </span>
+       <h3 data-i18n="why.three.title">
+        Είμαστε πραγματικά εδώ
+       </h3>
+       <p data-i18n="why.three.text">
+        Χρειάζεστε βοήθεια στη διάρκεια του ταξιδιού; Καλέστε μας. Η τοπική μας υποστήριξη είναι διαθέσιμη 24/7.
+       </p>
+      </article>
+     </div>
+    </div>
+   </section>
+   <section class="reviews-section" id="reviews">
+    <div class="container">
+     <div class="reviews-heading">
+      <div>
+       <p class="section-eyebrow" data-i18n="reviews.eyebrow">
+        ΑΠΟΨΕΙΣ ΕΠΙΣΚΕΠΤΩΝ
+       </p>
+       <h2 data-i18n-html="reviews.title">
+        Απλή εξυπηρέτηση.
+        <span>
+         Όμορφες αναμνήσεις.
+        </span>
+       </h2>
+      </div>
+      <p class="reviews-intro" data-i18n="reviews.intro">
+       Εύκολη παραλαβή, ξεκάθαρες τιμές και ένας άνθρωπος να καλέσετε όταν χρειαστεί.
+      </p>
+     </div>
+     <div class="reviews-grid">
+      <article class="review-card">
+       <div class="review-top">
+        <div class="review-person">
+         <div class="review-avatar">
+          MK
+         </div>
+         <div>
+          <strong>
+           Maria K.
+          </strong>
+          <span data-i18n="reviews.country.de">
+           Γερμανία
+          </span>
+         </div>
+        </div>
+        <div aria-label="5 στα 5 αστέρια" class="review-stars" data-i18n-aria-label="reviews.stars">
+         ★★★★★
+        </div>
+       </div>
+       <blockquote data-i18n="reviews.quote.one">
+        «Η τιμή ήταν ακριβώς αυτή που συμφωνήσαμε. Η παραλαβή στο αεροδρόμιο ήταν εύκολη και δεν υπήρχαν απρόσμενες χρεώσεις.»
+       </blockquote>
+      </article>
+      <article class="review-card">
+       <div class="review-top">
+        <div class="review-person">
+         <div class="review-avatar">
+          JT
+         </div>
+         <div>
+          <strong>
+           James T.
+          </strong>
+          <span data-i18n="reviews.country.uk">
+           Ηνωμένο Βασίλειο
+          </span>
+         </div>
+        </div>
+        <div aria-label="5 στα 5 αστέρια" class="review-stars" data-i18n-aria-label="reviews.stars">
+         ★★★★★
+        </div>
+       </div>
+       <blockquote data-i18n="reviews.quote.two">
+        «Γρήγορη επικοινωνία, καθαρό αυτοκίνητο και όλα ήταν απλά από την παραλαβή μέχρι την επιστροφή.»
+       </blockquote>
+      </article>
+      <article class="review-card">
+       <div class="review-top">
+        <div class="review-person">
+         <div class="review-avatar">
+          EP
+         </div>
+         <div>
+          <strong>
+           Elena P.
+          </strong>
+          <span data-i18n="reviews.country.it">
+           Ιταλία
+          </span>
+         </div>
+        </div>
+        <div aria-label="5 στα 5 αστέρια" class="review-stars" data-i18n-aria-label="reviews.stars">
+         ★★★★★
+        </div>
+       </div>
+       <blockquote data-i18n="reviews.quote.three">
+        «Χρειαστήκαμε βοήθεια στη διάρκεια του ταξιδιού και μας απάντησαν αμέσως. Φιλική και εύκολη εξυπηρέτηση από την αρχή μέχρι το τέλος.»
+       </blockquote>
+      </article>
+     </div>
+     <p class="reviews-note" data-i18n="reviews.note">
+      Ενδεικτικές αξιολογήσεις για σκοπούς παρουσίασης.
+     </p>
+    </div>
+   </section>
+   <section class="booking-section" id="booking">
+    <div class="container booking-layout">
+     <div class="booking-copy">
+      <p class="section-eyebrow" data-i18n="booking.eyebrow">
+       ΕΛΕΓΧΟΣ ΔΙΑΘΕΣΙΜΟΤΗΤΑΣ
+      </p>
+      <h2 data-i18n-html="booking.title">
+       Πείτε μας τα σχέδιά σας.
+       <span>
+        Τα υπόλοιπα τα αναλαμβάνουμε εμείς.
+       </span>
+      </h2>
+      <p data-i18n="booking.text">
+       Στείλτε μας τις ημερομηνίες και τις προτιμήσεις σας. Θα σας απαντήσουμε με διαθεσιμότητα και τελική τιμή.
+      </p>
+      <div class="booking-note">
+       <strong data-i18n="booking.noPayment">
+        Δεν απαιτείται πληρωμή.
+       </strong>
+       <span data-i18n="booking.confirmFirst">
+        Πρώτα επιβεβαιώνουμε τη διαθεσιμότητα.
+       </span>
+      </div>
+     </div>
+     <form action="https://formspree.io/f/xvkgogoq" class="booking-form" id="booking-form" method="POST">
+      <div class="form-grid">
+       <div class="form-field">
+        <label data-i18n="form.name" for="full-name">
+         Ονοματεπώνυμο *
+        </label>
+        <input autocomplete="name" id="full-name" name="full_name" required="" type="text"/>
+       </div>
+       <div class="form-field">
+        <label data-i18n="form.email" for="email">
+         Email *
+        </label>
+        <input autocomplete="email" id="email" name="email" required="" type="email"/>
+       </div>
+       <div class="form-field">
+        <label data-i18n="form.pickup" for="pickup-date">
+         Ημερομηνία παραλαβής *
+        </label>
+        <input id="pickup-date" name="pickup_date" required="" type="date"/>
+       </div>
+       <div class="form-field">
+        <label data-i18n="form.return" for="return-date">
+         Ημερομηνία επιστροφής *
+        </label>
+        <input id="return-date" name="return_date" required="" type="date"/>
+       </div>
+       <div class="form-field">
+        <label data-i18n="form.category" for="car-category">
+         Κατηγορία αυτοκινήτου *
+        </label>
+        <select id="car-category" name="car_category" required="">
+         <option data-i18n="form.selectCategory" value="">
+          Επιλέξτε κατηγορία
+         </option>
+         <option data-i18n="fleet.category.economy" value="Economy">
+          Οικονομικό
+         </option>
+         <option data-i18n="fleet.category.compact" value="Compact">
+          Μικρομεσαίο
+         </option>
+         <option data-i18n="fleet.category.family" value="Family">
+          Οικογενειακό
+         </option>
+        </select>
+       </div>
+       <div class="form-field">
+        <label data-i18n="form.fuel" for="fuel-preference">
+         Προτίμηση καυσίμου
+        </label>
+        <select id="fuel-preference" name="fuel_preference">
+         <option data-i18n="form.noPreference" value="No preference">
+          Χωρίς προτίμηση
+         </option>
+         <option data-i18n="fleet.petrol" value="Petrol">
+          Βενζίνη
+         </option>
+         <option data-i18n="fleet.diesel" value="Diesel">
+          Πετρέλαιο
+         </option>
+         <option data-i18n="fleet.hybrid" value="Hybrid">
+          Υβριδικό
+         </option>
+         <option data-i18n="form.electric" value="Electric">
+          Ηλεκτρικό
+         </option>
+        </select>
+       </div>
+       <div class="form-field">
+        <label data-i18n="form.child" for="child-seat">
+         Παιδικό κάθισμα
+        </label>
+        <select id="child-seat" name="child_seat">
+         <option data-i18n="form.no" value="No">
+          Όχι
+         </option>
+         <option data-i18n="form.yes" value="Yes">
+          Ναι
+         </option>
+        </select>
+       </div>
+       <div class="form-field">
+        <label data-i18n-html="form.phone" for="phone">
+         Τηλέφωνο
+         <span>
+          Προαιρετικό
+         </span>
+        </label>
+        <input autocomplete="tel" id="phone" name="phone" type="tel"/>
+       </div>
+      </div>
+      <button class="booking-submit" type="submit">
+       <span class="submit-text" data-i18n="form.send">
+        Αποστολή αιτήματος
+       </span>
+       <span aria-hidden="true" class="submit-arrow">
+        →
+       </span>
+      </button>
+      <p aria-live="polite" class="form-status" id="form-status">
+      </p>
+      <p class="form-smallprint" data-i18n="form.smallprint">
+       Θα σας απαντήσουμε με διαθεσιμότητα και την τελική τιμή.
+      </p>
+     </form>
+    </div>
+   </section>
+  </main>
+  <!-- WHY MELTEMI -->
+  <!-- REVIEWS -->
+  <!-- BOOKING -->
+  <!-- FOOTER / CONTACT -->
+  <footer class="site-footer" id="contact">
+   <div class="container footer-grid">
+    <div class="footer-brand">
+     <a class="brand" href="#top">
+      <span class="brand-name footer-brand-name">
+       meltemi
+      </span>
+      <span class="brand-subtitle">
+       RENTALS · KOS
+      </span>
+     </a>
+     <p data-i18n="footer.text">
+      Απλή ενοικίαση αυτοκινήτου στην Κω, με ξεκάθαρες τιμές και τοπική υποστήριξη.
+     </p>
+    </div>
+    <div class="footer-contact">
+     <span class="footer-label" data-i18n="footer.contact">
+      ΕΠΙΚΟΙΝΩΝΙΑ
+     </span>
+     <a href="tel:+300000000000">
+      +30 000 000 0000
+     </a>
+     <a href="mailto:hello@meltemirentals.gr">
+      hello@meltemirentals.gr
+     </a>
+     <span data-i18n="footer.location">
+      Κως, Ελλάδα
+     </span>
+    </div>
+    <div class="footer-contact">
+     <span class="footer-label" data-i18n="footer.help">
+      ΧΡΕΙΑΖΕΣΤΕ ΒΟΗΘΕΙΑ;
+     </span>
+     <a href="#">
+      WhatsApp
+     </a>
+     <span data-i18n="footer.support">
+      Τοπική υποστήριξη διαθέσιμη 24/7
+     </span>
+    </div>
+   </div>
+   <div class="container footer-bottom">
+    <span>
+     © 2026 Meltemi Rentals
+    </span>
+    <span data-i18n="footer.location">
+     Κως, Ελλάδα
+    </span>
+   </div>
+  </footer>
+  <!-- MOBILE STICKY CTA -->
+  <div class="mobile-booking-cta">
+   <div>
+    <span data-i18n="sticky.price">
+     Από €35/ημέρα
+    </span>
+    <small data-i18n="pricing.final">
+     Τελική τιμή
+    </small>
+   </div>
+   <a data-i18n="nav.availability" href="#booking">
+    Έλεγχος διαθεσιμότητας
+   </a>
+  </div>
+  <script src="script.js">
+  </script>
+ </body>
+</html>
